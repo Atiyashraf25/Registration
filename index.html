@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Registration Form Page</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+      <body>
+          <h1>Registration Form</h1>
+          <div class="register">
+          <form method="post" id="register" action="">
+              <h2>Register here</h2><br>
+              <label> Username :</label><br>
+              <input type="text" name="Uname" id="name" placeholder="enter username"><br><br>
+              <label> Email :</label><br>
+              <input type="email" name="email" id="name" placeholder="enter email"><br><br>
+              <label> Address :</label><br>
+              <textarea rows="5" cols="30" id="text" placeholder="enter Address here....."></textarea><br><br>
+              <label> Gender :</label><br>
+              <input type="radio" name="MALE" id="MALE"><span id="MALE">&nbsp; MALE</span>&nbsp;&nbsp;
+              <input type="radio" name="FEMALE" id="FEMALE"><span id="FEMALE">&nbsp; FEMALE</span>&nbsp;&nbsp;
+              <input type="radio" name="OTHER" id="OTHER"><span id="OTHER">&nbsp; OTHER</span>&nbsp;&nbsp;<br><br>
+              <label> Date of birth :</label><br>
+              <input type="date" name="date" id="name" placeholder="enter DOB"><br><br>
+              <label> Qualifications :</label><br>
+              <select id="grad">
+                  <option>BTECH</option>
+                  <option>BA</option>
+                  <option>BCA</option>
+                  <option>OTHERS</option>
+              </select><br><br>
+              <label> Technologies:</label><br>
+              <input type="checkbox" name="C" id="C"><span id="C">&nbsp; C</span>&nbsp;&nbsp;
+              <input type="checkbox" name="C++" id="C++"><span id="C++">&nbsp; C++</span>&nbsp;&nbsp;
+              <input type="checkbox" name="JAVA" id="JAVA"><span id="JAVA">&nbsp; JAVA</span>&nbsp;&nbsp;
+              <input type="checkbox" name="PYTHON" id="PYTHON"><span id="PYTHON">&nbsp; PYTHON</span>&nbsp;&nbsp;<br><br>
+            <button type="submit" id="sub">Submit</button>&nbsp;
+            <button type="reset" id="res">Reset</button>&nbsp;
+          </form>
+          </div> 
+      </body>
+</html>
